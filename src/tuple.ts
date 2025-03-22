@@ -1,5 +1,5 @@
 //elder brother from array - when I know the order of the data types 
-let personDetail:[string,number,boolean] = ["Angela","Maria", 30,true];
+let personDetail:[string,number,boolean] = ["Angela", 30,true];
 console.log(personDetail[0]);
 console.log(personDetail[1]);
 console.log(personDetail[2]);

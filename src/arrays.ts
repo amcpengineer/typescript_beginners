@@ -11,10 +11,10 @@ console.log(numberArrays);
 
 console.log(fruits[1]);
 
-numberArrays.push(6);
+numberArrays.push(6); //add a new element at the end
 console.log(numberArrays);
 
-numberArrays.pop();
+numberArrays.pop(); //remove the last element
 console.log(numberArrays);
 
 numberArrays.unshift(8); //add at the begining
@@ -26,6 +26,7 @@ console.log(numberArrays);
 const slicedArray = numberArrays.slice(1,3); //slice the array from index 1 to 3 not inclued the last 
 console.log(slicedArray);
 
-//filter behind a condition
-const filteredArray = numberArrays.filter((num)=> num > 2);
+const filteredArray = numberArrays.filter((num)=> num > 2); //filter behind a condition
 console.log(filteredArray);
+
+//Array of anys it can accept any type of data, undefined and null
